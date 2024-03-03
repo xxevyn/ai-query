@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "forge"
+version = "0.1.0"
+description = ""
+authors = ["Karl-Gustav Kallasmaa <29797627+KGKallasmaa@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<=3.13"
+crewai = {extras = ["tools"], version = "^0.16.3"}
+duckduckgo-search = "^4.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
